@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="44dp"
+            android:layout_height="40dp"
+            android:src="@drawable/nipo"
+            android:id="@+id/item_foto"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_marginTop="19dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+
+            <TextView
+                android:id="@+id/item_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nipô Sushi Restaurante"
+                android:maxLength="50"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"/>
+
+            <RatingBar
+                android:theme="@style/RatingBar"
+                style="@style/RatingBar"
+                android:id="@+id/item_avaliacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="0.5"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="bottom"
+                android:rating="3"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:id="@+id/sv_left_menu"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/layout_left_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

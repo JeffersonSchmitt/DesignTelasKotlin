@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/values"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left">
+    <Button
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:background="@drawable/title_bar_menu"
+        android:id="@+id/title_bar_left_menu"/>
+</LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center">-->
+        <!--<ImageView-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:src="@mipmap/logo"-->
+            <!--android:layout_marginRight="45dp"/>-->
+
+    <!--</LinearLayout>-->
+
+</android.support.v7.widget.Toolbar>
+    <!--se for fora de uma tag de toolbar pode ser usado a altura-->
+    <!--android:layout_height="?attr/actionBarSize"-->
+

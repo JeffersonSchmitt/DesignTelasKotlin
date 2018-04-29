@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPurple">#6e2b77</color>
+    <color name="buttonbg">#312d2d</color>
+
+    <color name="colorErase">#ffffff</color>
+    <color name="orange">#ffa447</color>
+    <color name="orangeDark">#ffff8800</color>
+
+    <color name="values">#454545</color>
+    <color name="wave">#747373</color>
+
+
+</resources>
